@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 import django_heroku
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 
 # Extra places for collectstatic to find static files.
@@ -20,7 +21,7 @@ STATICFILES_DIRS = (
 )
 
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 # STATIC_DIR = os.path.join(BASE_DIR, 'static')
 
