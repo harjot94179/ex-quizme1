@@ -1,1 +1,1 @@
-web: gunicorn ex-quizme.wsgi 
+web: gunicorn lets_quiz.wsgi 
